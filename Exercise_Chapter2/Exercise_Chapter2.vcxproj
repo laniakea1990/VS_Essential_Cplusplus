@@ -11,10 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{09E18438-F212-4C2F-9D26-CD369FE9B696}</ProjectGuid>
+    <ProjectGuid>{D5E696D8-47D5-4608-BCDA-9DEFFA246381}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Essential_Cplusplus</RootNamespace>
-    <ProjectName>chapter1</ProjectName>
+    <RootNamespace>Exercise_Chapter2</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -79,7 +78,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="t1.cpp" />
+    <ClCompile Include="2_1.cpp" />
+    <ClCompile Include="2_2.cpp" />
+    <ClCompile Include="2_3.cpp" />
+    <ClCompile Include="2_4.cpp" />
+    <ClCompile Include="2_5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
